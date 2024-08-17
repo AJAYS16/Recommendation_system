@@ -1,5 +1,20 @@
-# Recommendation_system
+# Collaborative Recommendation System
 
+This repository contains the implementation of a **Collaborative Recommendation System** designed to predict user preferences by analyzing the interactions between users and items.
+
+## Overview
+
+Collaborative filtering is a widely used technique in recommendation systems, based on the idea that users who agreed in the past will agree in the future. This project utilizes user-item interaction data to generate personalized recommendations.
+
+## Features
+
+- **User-Based Collaborative Filtering:** Identifies similar users and recommends items based on their preferences.
+- **Item-Based Collaborative Filtering:** Finds similar items and suggests them to users who have liked similar items.
+- **K-Nearest Neighbors (KNN):** Enhances accuracy by identifying the closest users or items based on similarity metrics.
+
+## Project Structure
+
+```python
 # Collaborative Recommendation System
 
 # This code implements a collaborative filtering-based recommendation system
